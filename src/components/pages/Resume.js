@@ -4,9 +4,9 @@ export default function Resume() {
   return (
     <div>
       <h1 className="header">Resume</h1>
-      <p id="resume" class="resume">
+      <p id="resume" className="resume container-fluid" >
       <button><a href="./assets/Resume 2022*.pdf" download="Resume 2022">Download PDF</a></button>
-                        </p>
+      </p>
     </div>
   );
 }

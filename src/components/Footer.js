@@ -7,7 +7,7 @@ function Footer() {
     <div>
       <footer id="contact-me" className="contact-me container-fluid">
             <h2>Contact Me</h2>
-                <ul className="d-flex flex-row justify-content-around">
+                <ul className="d-flex flex-row justify-content-around" style={{listStyleType:'none'}}>
 {/*                     
                     <li>
                         <a className="footer-link" href='https://linkedin.com/in/emeraldarielgreen'><i className="material-icons">web</i>LinkedIn</a>

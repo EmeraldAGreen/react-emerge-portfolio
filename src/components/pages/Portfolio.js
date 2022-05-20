@@ -3,7 +3,7 @@ import ShyGuyFinance from '../assets/ShyGuy-Finance.png';
 import WeatherDashboard from '../assets/weather-dashboard.png'
 import WoW from '../assets/world-of-workouts.png'
 import eCommerce from '../assets/insomnia-logo.jpeg'
-import employeeTracker from ''
+import employeeTracker from '../assets/employeeTracker'
 import dayPlanner from '../assets/dayPlanner'
 
 export default function Portfolio() {

@@ -1,6 +1,6 @@
 import React from "react";
 import 'material-icons/iconfont/material-icons.css';
-import '../components/styles';
+
 
 function Footer() {
   return (

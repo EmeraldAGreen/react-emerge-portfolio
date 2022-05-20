@@ -16,7 +16,7 @@ export default function Contact() {
   };
 
   return (
-<div className="container">
+<div className="container-fluid">
   <div className="row justify-content-md-center">
       <div className="col-sm-6">
         <div className="card border-dark rounded">

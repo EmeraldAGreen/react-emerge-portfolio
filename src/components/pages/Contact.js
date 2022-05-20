@@ -16,7 +16,11 @@ export default function Contact() {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
+  <div className="row">
+      <div className="col-sm-6">
+        <div className="card border-dark rounded">
+            <div className="card-body">
+    <form className='card' ref={form} onSubmit={sendEmail}>
       <label>Name</label>
       <input type="text" name="user_name" />
       <label>Email</label>
@@ -25,5 +29,9 @@ export default function Contact() {
       <textarea name="message" />
       <input type="submit" value="Send" />
     </form>
+      </div>
+    </div>
+  </div>
+  </div>
   );
 };

@@ -1,0 +1,61 @@
+body {
+    font-family: 'Share Tech Mono', monospace;
+    background-color:#004B69;
+    color: #cfd9db;
+}
+
+nav {
+    background-color: #006e9b;
+}
+
+input {
+    background-color: #006e9b;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.about-me {
+    margin-top: 10%;
+}
+
+.resume {
+    margin-top: 10%;
+}
+
+.deployed-projects {
+    margin-top: 10%;
+}
+
+.card {
+    margin-top: 10%;
+    margin-bottom: 10%; 
+    color:#004B69
+}
+
+.contact-me {
+    margin-top: 10%;
+}
+
+.navbar-brand {
+    font-size: 70px;
+    color: #cfd9db;
+}
+
+.navbar-toggler {
+    background-color: #cfd9db;
+}
+
+.offcanvas {
+    background-color:#cfd9db;
+}
+
+.d-flex {
+    justify-content: space-around;
+    flex-direction: row;
+}
+.footer-link {
+    color:#cfd9db;
+    font-size: 20px;
+}

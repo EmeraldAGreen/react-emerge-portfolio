@@ -16,7 +16,8 @@ export default function Contact() {
   };
 
   return (
-  <div className="row">
+<div className="container">
+  <div className="row justify-content-md-center">
       <div className="col-sm-6">
         <div className="card border-dark rounded">
             <div className="card-body">
@@ -28,10 +29,11 @@ export default function Contact() {
       <label>Message</label>
       <textarea name="message" />
       <input type="submit" value="Send" />
-    </form>
+     </form>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
   </div>
   );
 };

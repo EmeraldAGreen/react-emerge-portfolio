@@ -6,7 +6,7 @@ import eCommerce from '../assets/insomnia-logo.jpeg'
 import employeeTracker from ''
 import dayPlanner from '../assets/dayPlanner'
 
-export default function Work() {
+export default function Portfolio() {
   return (
     <div id="deployed-projects" className="deployed-projects">
       <h1>My Work</h1>

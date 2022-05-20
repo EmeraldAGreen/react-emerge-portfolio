@@ -4,6 +4,18 @@ import React from 'react';
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
+    <nav className="navbar navbar-light fixed-top">
+    <div className="container-fluid" >
+      <a className="navbar-brand" href="#">emerge</a>
+      <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span className="navbar-toggler-icon"></span>
+      </button>
+      <div className="offcanvas show offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div className="offcanvas-header">
+          <h5 className="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div className="offcanvas-body">
     <ul className="nav nav-tabs navbar-nav justify-content-end flex-grow-1 pe-3">
       <li className="nav-item">
         <a
@@ -47,6 +59,10 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    </div>
+    </div>
+  </div>
+</nav>
   );
 }
 

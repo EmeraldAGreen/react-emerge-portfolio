@@ -1,11 +1,11 @@
 import React from "react";
+import 'material-icons/iconfont/material-icons.css';
 
 function Footer() {
   return (
     <div>
       <footer id="contact-me" className="contact-me container-fluid">
             <h2>Contact Me</h2>
-            <article>
                 <ul className="d-flex">
                     <li>
                         <a className="footer-link" href='https://linkedin.com/in/emeraldarielgreen'><i className="material-icons">web</i>LinkedIn</a>
@@ -17,7 +17,6 @@ function Footer() {
                         <a className="footer-link" href='https://github.com/EmeraldAGreen'><i className="material-icons">work</i>Github</a>
                     </li>
                 </ul>
-            </article>
         </footer>
     </div>
   );

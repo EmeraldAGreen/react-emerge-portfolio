@@ -4,9 +4,9 @@ function Resume() {
   return (
     <section className="my-5">
       <div className="my-2">
-        <p id="resume" className="resume container-fluid" >
-      <button><a href="./assets/Resume 2022*.pdf" download="Resume 2022">Download PDF</a></button>
-      </p>
+      <p>
+        Download my <a href="https://www.linkedin.com/">resume</a>
+        </p>
         <h3>Front-end Proficiencies</h3>
         <ul className="skills">
           <li>HTML</li>

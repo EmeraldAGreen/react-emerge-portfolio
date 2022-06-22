@@ -1,12 +1,12 @@
 import React from 'react';
-// import coverImage from '../../assets/cover/cover-image.jpg';
+import coverImage from '../../assets/cover/cover-image.jpg';
 
 function Header(props) {
 
   return (
     <header className="flex-row space-between px-1">
-      <h1>EMERGE</h1>
-      {/* <img src={coverImage} alt="wooden background"></img> */}
+      <h1>Emerald Green</h1>
+      <img src={coverImage} alt="leaf pattern wallpaper"></img>
       {props.children}
     </header>
   );

@@ -1,42 +1,30 @@
-import React from "react";
+import React from 'react';
 
 function Footer() {
+
+  // Replace links with social media profiles
+  const icons = [
+    {
+      name: "fab fa-github",
+      link: "https://github.com/"
+    },
+    {
+      name: "fab fa-linkedin",
+      link: "https://www.linkedin.com/"
+    },
+    {
+      name: "fab fa-stack-overflow",
+      link: "https://stackoverflow.com/"
+    }
+  ]
+
   return (
-    <footer id="contact-me" className="contact-me container-fluid">
-      <h2>Contact Me</h2>
-      <ul
-        className="d-flex flex-row justify-content-around"
-        style={{ listStyleType: "none" }}
-      >
-        {/*                     
-            <li>
-                <a className="footer-link" href='https://linkedin.com/in/emeraldarielgreen'><i className="material-icons">web</i>LinkedIn</a>
-            </li>
-            <li>
-                <a className="footer-link" href='mailto:emeraldthedeveloper@gmail.com'> <i className="material-icons">email</i>emeraldthedeveloper@gmail.com</a>
-            </li>
-            <li>
-                <a className="footer-link" href='https://github.com/EmeraldAGreen'><i className="material-icons">work</i>Github</a>
-            </li> */}
-        <li>
-          <a href="https://linkedin.com/in/emeraldarielgreen">
-            <i className="material-icons">web</i>
-            LinkedIn
-          </a>
-        </li>
-        <li>
-          <a href="mailto:emeraldthedeveloper@gmail.com">
-            <i className="material-icons">email</i>
-            emeraldthedeveloper@gmail.com
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/EmeraldAGreen">
-            <i className="material-icons">work</i>
-            Github
-          </a>
-        </li>
-      </ul>
+    <footer className="flex-row px-1">
+      {icons.map(icon =>
+      (
+        <a href={icon.link} key={icon.name} target="_blank" rel="noopener noreferrer"><i className={icon.name}></i></a>
+      )
+        )}
     </footer>
   );
 }

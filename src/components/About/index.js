@@ -1,17 +1,21 @@
 import React from 'react';
-import Headshot from '../../assets/EG-headshot.jpg'
+import headshotImage from '../../assets/cover/headshot.jpg';
+
 function About() {
   return (
-    <section id="about-me" className="about-me">
-       <article className="clearfix">
-         <img className="col-md-6 float-md-end mb-3 ms-md-3 circle box-shadow-lg" src={Headshot} alt="Professional headshot of Emerald Green" height="auto"/>
-             <p>
-               Hi, my name is Emerald Green, and I am a full-stack Web Application Developer, currently living in Denver, CO. I have a Bachelor of Arts in Organismal Biology & Ecology and Classics from Colorado College. I committed my post-undergraduate career to advancing equity with mission-based organizations in my community. I serve as the Consumer Assistance Program Coordinator for Colorado Consumer Health Initiative and the Program Coordinator for the F2F project at Family Voices Colorado. I am excited to apply my skills in problem-solving and project management to web development, and I am currently  honing my technical skills with the University of Denver’s coding bootcamp.
-             </p>
-         <p id="resume" className="resume">
-               <button><a href="../../assets/Resume-2022.pdf" download="Resume 2022">Download PDF</a></button>
-         </p>
-       </article>
+    <section className="my-5">
+      <div className="my-2">
+        <div className="container-center-horizontal my-5">
+        <img className="profile-img" src={headshotImage} alt="Professional headshot of Emerald Green"/>
+        {/* <i className="fas fa-user-circle" style={{ fontSize: "96px" }}></i> */}
+        </div>
+        <p>
+       ...currently living in Austin, TX. I have a Bachelor of Arts in both Organismal Biology & Ecology and Classics (i.e. ancient art, culture, and architecture) from Colorado College (CC). For my post-undergraduate career, I committed myself to advancing equity with mission-based organizations in Denver, CO. I served as the Consumer Assistance Program Coordinator for Colorado Consumer Health Initiative and the Program Coordinator for the F2F (family to family) project at Family Voices Colorado for two years. Through my experience in these roles, I gained valuable skills in problem-solving and project management that I am excited to apply to my web development career. 
+        </p>
+        <p>
+        Before taking the University of Denver's full-stack bootcamp, I explored coding at the Tennessee Governor's School for the Sciences & Engineering summer program, where I used Python to program Roombas. This experience sparked my interest in technology and fueled me to pursue more technical roles in college. During my time at CC, I worked in the ITS Solutions Center and Tech Sandbox as a Student Lab Technician. There, I was exposed to a new technologies like the Oculus Quest, Microsoft HoloLens, VIVE headset, and 3D printing. I improved my diversity of knowledge through the COMPTIA A+ training and exam. As part of this training, I immersed myself in internal hardware components by destroying and rebuilding a PC. Through these experiences, I have gained exposure to different tools in various fields of software and hardware development, giving me the skills to connect users to the data they need. 
+        </p>
+      </div>
     </section>
   );
 }

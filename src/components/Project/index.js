@@ -8,8 +8,7 @@ function Project({ project }) {
   return (
     <div className="project" key={name}>
       <img
-        // src={require(`../../assets/projects/${name}.jpg`)}
-        src="https://via.placeholder.com/150x30"
+        src={require(`../../assets/projects/${name}.jpg`)}
         alt={removeHyphensAndCapitalize(name)}
         className="project-bg"
       />

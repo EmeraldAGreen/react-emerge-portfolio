@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
-import { Navbar, Nav } from 'react-bootstrap';
+import { Navbar } from 'react-bootstrap';
 function NavTabs(props) {
   const {
     pages = [],
@@ -13,7 +13,7 @@ function NavTabs(props) {
   }, [currentPage]);
 
   return (    
-      <Nav>
+      <nav>
         <Navbar>
         <Navbar.Collapse>
           <ul className="flex-row">
@@ -34,7 +34,7 @@ function NavTabs(props) {
             </ul>
         </Navbar.Collapse>
         </Navbar>
-      </Nav>
+      </nav>
   );
 }
 

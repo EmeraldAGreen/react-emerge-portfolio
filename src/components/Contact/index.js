@@ -1,25 +1,22 @@
 import React, { useState } from 'react';
+import emailjs from '@emailjs/browser';
 
 import { validateEmail } from '../../utils/helpers';
 
 function Contact() {
-  const [formState, setFormState] = useState({
-    name: '',
-    email: '',
-    message: '',
-  });
+   // set initial form state
+  const initialState = 
+  {name: '',
+  email: '',
+  message: ''}
+
+  const [formState, setFormState] = useState(initialState);
 
   const [errorMessage, setErrorMessage] = useState('');
   const { name, email, message } = formState;
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (!errorMessage) {
-      console.log('Submit Form', formState);
-    }
-  };
-
-  const handleChange = (e) => {
+   // update state based on form input changes
+   const handleChange = (e) => {
     if (e.target.name === 'email') {
       const isValid = validateEmail(e.target.value);
       if (!isValid) {
@@ -40,8 +37,29 @@ function Contact() {
     }
   };
 
+  // submit form
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    if (!errorMessage) {
+      console.log('Submit Form', formState);
+    }
+
+    try {
+    const result = await emailjs.sendForm('service_5prjdgi', 'template_r3ma62p', e.target, 'J8XVdy_RvubhLkrw3')
+    console.log(result.text)
+    alert("Message has been sent successfully!");
+    }
+    catch (err) {
+    console.log(err.text)
+    }
+    // clear form values
+    setFormState(initialState);
+  };
+ 
+
   return (
-    <section>
+    <section className="container-center-horizontal">
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>

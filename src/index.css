@@ -47,7 +47,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-family-oxygen), cursive;
+  font-family: var(--font-family-oxygen);
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
@@ -86,7 +86,7 @@ p {
 }
 
 a {
-  color: var(--light);
+  color: var(--secondary);
   text-decoration: none;
   opacity: .5;
 }
@@ -139,7 +139,12 @@ span[role='img'] {
 }
 
 form {
-  width: 40%;
+  width: 50%;
+  font-family: var(--font-family-oxygen);
+}
+ç
+textarea {
+  font-family: var(--font-family-oxygen);
 }
 
 input {
@@ -190,8 +195,8 @@ header img {
 
 nav {
   position: relative;
-  font-family: var(--font-family-oxygen), cursive;
-  font-size: 2rem;
+  font-family: var(--font-family-oxygen);
+  font-size: 1.5rem;
   margin: 20px, 20px;
 }
 

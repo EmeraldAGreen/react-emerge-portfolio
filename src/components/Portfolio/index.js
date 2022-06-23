@@ -6,34 +6,34 @@ function Portfolio() {
   // Replace links with deployed projects and GitHub repos
   const [projects] = useState([
     {
-      name: 'surf-report',
-      description: 'MERN Stack',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'book-search-engine',
+      description: 'a RESTFUL API to a full-fledged GraphQL API with a client and server',
+      link: "https://polar-savannah-39442.herokuapp.com/",
+      repo: "https://github.com/EmeraldAGreen/book-search"
     },
     {
-      name: 'pastel-puzzels',
-      description: 'MERN Stack',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'text-editor',
+      description: 'a progressive web app that is fast, responsive, and installable from any browser',
+      link: "https://lit-journey-57734.herokuapp.com/",
+      repo: "https://github.com/EmeraldAGreen/PWA-text-editor"
     },
     {
-      name: 'run-buddy',
-      description: 'HTML/CSS',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'social-network',
+      description: 'a NOSQL API with for a social network app, tested in Insomnia',
+      link: "https://drive.google.com/file/d/1XohuqQTMUxmHOSTu4KuG2YeRWdQA6GdI/view",
+      repo: "https://github.com/EmeraldAGreen/noSQL-social-network"
     },
     {
-      name: 'led-wall',
-      description: 'Node/IoT',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'notes-app',
+      description: 'create and delete notes that have a unique ID in the db.json file',
+      link: "https://note-taker-app001.herokuapp.com/",
+      repo: "https://github.com/EmeraldAGreen/notes-app-express.js"
     },
     {
-      name: 'calculator',
-      description: 'React/JavaScript/CSS',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'good-neighbor',
+      description: 'a full-stack MERN app that allows the user to view and complete tasks in your zip code',
+      link: "https://be-a-good-neighbor.herokuapp.com/",
+      repo: "https://github.com/emmareimer/goodneighbor"
     },
   ]);
 

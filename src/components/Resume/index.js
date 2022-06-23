@@ -1,12 +1,12 @@
 import React from 'react';
-import pdf from "../../assets/pdfs"
+import pdf from "../../assets/pdfs/Resume_2022.pdf"
 
 function Resume() {
   return (
     <section className="my-5">
       <div className="my-2">
       <p>
-        Download my <button><a href={pdf} download="Resume_2022">resume</a> </button>
+        Download my <button className="button-download"><a href={pdf} download="Resume_2022.pdf">resume</a> </button>
         </p>
         <h3>Front-end Proficiencies</h3>
         <ul className="skills">

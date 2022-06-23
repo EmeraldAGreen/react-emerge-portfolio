@@ -1,6 +1,10 @@
 {
   "name": "emerge-portfolio",
   "version": "0.1.0",
+  "engines": {
+    "node": "16.14.0",
+    "npm": "8.3.1"
+  },
   "private": true,
   "homepage": "https://EmeraldAGreen.github.io/react-emerge-portfolio",
   "dependencies": {

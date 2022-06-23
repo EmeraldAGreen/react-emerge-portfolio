@@ -1,11 +1,12 @@
 import React from 'react';
+import pdf from "../../assets/pdfs"
 
 function Resume() {
   return (
     <section className="my-5">
       <div className="my-2">
       <p>
-        Download my <a href="https://www.linkedin.com/">resume</a>
+        Download my <button><a href={pdf} download="Resume_2022">resume</a> </button>
         </p>
         <h3>Front-end Proficiencies</h3>
         <ul className="skills">

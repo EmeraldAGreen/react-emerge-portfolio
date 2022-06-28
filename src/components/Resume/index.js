@@ -10,8 +10,8 @@ function Resume() {
         </p>
       <div className="my-2 container-center-horizontal">
       <Container>
-        <Row>
-          <Card>
+        <Row className="proficiencies">
+          <Card className="py-2">
             <Card.Header>
             <h3>Front-end Proficiencies</h3>
             </Card.Header>
@@ -25,9 +25,9 @@ function Resume() {
               <ListGroup.Item>React</ListGroup.Item>
               <ListGroup.Item>Bootstrap</ListGroup.Item>
             </ListGroup>
-            </Card.Body>.
+            </Card.Body>
           </Card>
-          <Card>
+          <Card className="py-2">
             <Card.Header>
             <h3>Back-end Proficiencies</h3>
             </Card.Header>
@@ -41,7 +41,7 @@ function Resume() {
               <ListGroup.Item>REST</ListGroup.Item>
               <ListGroup.Item>GraphQL</ListGroup.Item>
             </ListGroup>
-            </Card.Body>.
+            </Card.Body>
           </Card>
         </Row>
       </Container>

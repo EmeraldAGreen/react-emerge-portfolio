@@ -1,5 +1,5 @@
 import React from 'react';
-import pdf from "../../assets/pdfs/Resume_2022.pdf";
+import pdf from "../../assets/pdfs/Resume_2022_Tech.pdf";
 import { Container, Row, Card, ListGroup } from 'react-bootstrap';
 
 function Resume() {

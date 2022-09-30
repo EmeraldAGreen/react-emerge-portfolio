@@ -1,12 +1,12 @@
 import React from 'react';
-import pdf from "../../assets/pdfs/Resume_2022_Tech.pdf";
+import pdf from "../../assets/pdfs/Resume_10_2022_Tech.pdf";
 import { Container, Row, Card, ListGroup } from 'react-bootstrap';
 
 function Resume() {
   return (
     <section className="my-5">
         <p>
-        Download my <button className="button-download"><a href={pdf} download="Resume_2022_Tech.pdf">resume</a> </button>
+        Download my <button className="button-download"><a href={pdf} download="Resume_10_2022_Tech.pdf">resume</a> </button>
         </p>
       <div className="my-2 container-center-horizontal">
       <Container>
